@@ -1,10 +1,3 @@
-@media screen and (max-width:1600px) {
-#color {
-	margin-top:2% !important;
-}
-}
-
-
 
 
 a{
@@ -74,21 +67,25 @@ nav ul{
 
 	display:inline;
 }
-nav li{list-style: none;
-  display: inline;
-  margin-left:12px;
+nav li{
+	list-style: none;
+	display: inline;
+	margin-left:12px;
+}
+
+
+li>a:link{
+	color:#adafb2;
+}
+
+li>a:visited{
+	color:#2ebfd9;
 }
 
 li>a:hover{
 	color:#2ebfd9;
+}
 
-}
-li>a:link{
-	color:#adafb2;
-}
-li>a:visited{
-	color:#2ebfd9;
-}
 #left_bar {
 	background-color:#fff;
 	width:300px;
@@ -258,7 +255,7 @@ margin-right:48px;
 
 .vertical_line{
 
-    border-left: 1px solid #aaa;
+    border-left: 1px solid #ddd;
     height: 90px;
     float: left;
     position: relative;
@@ -336,8 +333,8 @@ aside{
 	background-color: #3c4246;
 	position: relative;
 	top: -70px;
-  width: 250px;
-  padding: 30px 25px 20px 25px;
+  width: 240px;
+  padding: 30px 30px 20px 30px;
   color: #fff;
 
   height:690px;
@@ -450,3 +447,168 @@ aside{
 	width:94px;
 	padding:68px 0 60px 0; 
 }
+
+
+
+
+
+
+//响应式布局
+@media screen and (max-width:1600px) {
+#color {
+	margin-top:2% !important;
+}
+}
+
+
+
+@media screen and (min-width:980px) and (max-width:1266px) {
+
+
+
+body {
+	width:980px;
+	margin-top:5% !important;
+}
+
+nav {
+	margin-right:30px !important;
+}
+
+aside {
+	float:left !important;
+	width: 920px !important;
+	height:auto !important;
+	top:30px !important;
+}
+
+#left_bar{
+	margin-bottom:0px !important;
+}
+
+#skills {
+	float:left !important;
+	width:25%;
+	margin: 5% 5% 0 5% ;
+}
+
+#aside_title_1 {
+	margin-top:0px !important;
+}
+
+#skills_ul {
+	margin-top:26px !important;
+}
+
+.skills_li {
+	margin-bottom:14px !important;
+}
+#hobbies {
+	float:left !important;
+	width:30%;
+	margin-top:5%;
+
+}
+#hobbies_ul {
+	padding-left:12px !important;
+}
+
+#code_side {
+	width:130px !important;
+	padding:100px 0 0 10px !important;
+}
+
+}
+
+
+@media screen and (max-width: 996px) {
+
+
+.shadow{
+	box-shadow: none;
+
+}
+
+.inline_shadow {
+	box-shadow:0px 0px 5px #ccc;
+}
+
+
+
+body {
+	background-color:#f1f5f6;
+}
+
+
+
+#color {
+	margin-top:0px;
+}
+
+
+
+nav {
+	margin-right:5%;
+}
+
+#left_bar {
+	width: 80%;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+main {
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height:auto;
+}
+
+article {
+	width:100%;
+	margin-bottom:6%;
+}
+
+article>img {
+	width:100%;
+}
+
+.time_line {
+	clear: left;
+}
+
+aside {
+	width:80%;
+	padding:0;
+	float:left;
+	margin-left:10%;
+	margin-right:10%;
+	top:4%;
+
+}
+
+#skills {
+	margin:0 10%;
+}
+
+#hobbies {
+	margin:0 10%;
+}
+
+#hobbies_ul {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5%;
+
+}
+
+#code_side_div {
+	clear:left;
+	width:100%;
+}
+
+
+
+}
+//  响应式布局
